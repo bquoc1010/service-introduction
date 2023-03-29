@@ -495,6 +495,7 @@ font-weight: 550px;
 .form h5{
     font-weight: 500;
     margin-bottom: 15px;
+    color: #1e1e1e;
 }
 .form p{
     color: #FF589E;
@@ -516,6 +517,15 @@ font-weight: 550px;
     margin-bottom: 30px;
     padding-left: 15px;
     padding-top: 15px;
+}
+@media (max-width:991.98px){
+    .form .text{
+        margin-bottom: 20px;
+    }
+    .form .intro{
+        text-align: center;
+        margin-bottom: 10px;
+    }
 }
 /* end section 10 */
 /* end content */
