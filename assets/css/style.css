@@ -231,7 +231,7 @@
     height: 100vh;
     background-repeat: no-repeat;
     width: auto;
-    object-fit: cover;
+    background-size: cover;
 }
 
 
