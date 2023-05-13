@@ -37,6 +37,29 @@
     color: #777777;
     cursor: pointer;
 }
+.header .dropdown a{
+    color: #1e1e1e;
+    text-decoration: none;
+}
+.header .dropdown{
+    position: relative;
+}
+.header .dropdown-menu{
+    position: absolute;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+}
+.header .dropdown .dropdown-menu{
+    display: none;
+}
+.header .dropdown-menu li {
+    display: none;
+    list-style-type: none;
+    display: block;
+    padding: 0 12px;
+}
+.header .dropdown:hover .dropdown-menu{
+    display: block;
+}
 .header .inner-bar{
     font-size: 30px;
     display: none;
